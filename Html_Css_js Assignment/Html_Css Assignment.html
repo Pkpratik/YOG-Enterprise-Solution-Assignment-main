@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Adding the js file for DOM Manipulation  -->
+    <script defer src="script.js"></script>
+    <title>Simple Form</title>
+</head>
+<body>
+
+    <div class="container">
+        <form id="myForm">
+            <label for="field1">Field 1:</label>
+            <input type="text" id="field1" name="field1" required>
+
+            <label for="field2">Field 2:</label>
+            <input type="text" id="field2" name="field2" required>
+
+            <label for="field3">Field 3:</label>
+            <input type="text" id="field3" name="field3" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="results" class="results"></div>
+    </div>
+
+</body>
+</html>
